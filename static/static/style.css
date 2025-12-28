@@ -1,0 +1,17 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: #eee;
+  padding: 20px;
+}
+
+input, button, select {
+  padding: 8px;
+  margin: 5px 0;
+}
+
+pre {
+  background: #222;
+  padding: 10px;
+  white-space: pre-wrap;
+}
