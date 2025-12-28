@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dual Brain Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Dual Brain Chatbot</h2>
+
+  <select id="persona">
+    <option value="default">Default</option>
+    <option value="sassy">Sassy</option>
+    <option value="soft">Soft</option>
+  </select>
+
+  <label>
+    <input type="checkbox" id="nsfw"> NSFW Mode
+  </label>
+
+  <input id="msg" placeholder="Say something..." />
+  <button onclick="send()">Send</button>
+
+  <pre id="out"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
